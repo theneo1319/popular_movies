@@ -49,7 +49,7 @@ public class Tab1Fragment extends Fragment {
 
         TextView votes = (TextView) rootview.findViewById(R.id.votes);
         votes.setText(Double.toString(list.get(index).getVoteAverage()));
-
+        //rating bar
         RatingBar ratingBar = (RatingBar) rootview.findViewById(R.id.rating_bar);
         ratingBar.setRating(Float.parseFloat(Double.toString(list.get(index).getVoteAverage()/2)));
         Log.i("rating", String.valueOf(Float.parseFloat(Double.toString(list.get(index).getVoteAverage()/2))));
