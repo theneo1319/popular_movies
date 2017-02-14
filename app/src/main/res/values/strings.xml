@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Movies</string>
+
+   <string-array name="sortby_entries">
+       <item>Popular</item>
+       <item>Top Rated</item>
+   </string-array>
+   <string-array name="sortby_values">
+       <item>popular</item>
+       <item>top_rated</item>
+   </string-array>
+   <string name="sortby_default">popular</string>
+   <string name="sortby_key">sort_by</string>
+   <string name="sortby_title">Sort By</string>
+    <string name="summary">%s</string>
+</resources>
