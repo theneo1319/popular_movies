@@ -1,5 +1,5 @@
 # popular_movies
-This is a simple app done as a part of Udacity free course 'Developing Android Apps'
+This is a simple app done as a part of Udacity free course 'Developing Android Apps'. This app uses MovieDb API to fetch data
 
 **Features:**
 
